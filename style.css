@@ -4,8 +4,8 @@
 
 body {
   margin: 0;
-  background: #0ac0ae;
-  color: #0ac0ae;
+  background: #43caba;
+  color: #eebfd6;
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -42,7 +42,7 @@ color: #ebcad4;  /* this is you name text color */
 }
 .content > p {
 margin: 0;
-color: #fffdfd;
+color: #fcfafa;
 font-size: 0.9rem;
 text-transform: uppercase;
 letter-spacing: 0.15em;
@@ -59,7 +59,7 @@ font-size: 0.75rem;
 font-weight: 700;
 text-transform: uppercase;
 letter-spacing: 0.2em;
-color: #ffffff;
+color: #f7f5f5;
 }
 #interests ul {
 list-style: none;
@@ -74,7 +74,7 @@ color: #eebfd6;
 font-size: 1rem;
 font-weight: 600;
 padding: 10px 20px;
-background: #fff;
+background: #fcfafa;
 border: 1px solid #ddd;
 border-radius: 100px;
 transition:
@@ -84,8 +84,8 @@ transform 0.25s ease;
 cursor: default;
 }
 #interests li:hover {
-background: #000;
-color: #fff;
+background: #f9f6f6;
+color: #f3eeee;
 
 border-color: #000;
 transform: translateY(-2px);
@@ -153,7 +153,7 @@ color: #fff;
 
 
 .content h1 {
-color: rgb(2, 0, 0);
+color: rgb(250, 248, 248);
 }
 #portfolio {
 list-style: none;
@@ -173,18 +173,18 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 text-decoration: none;
-color: #444;
+color: #eebfd6;
 padding: 16px 20px;
 font-size: 1.1rem;
 font-weight: 500;
-background: #ffffff;
+background: #fcfbfb;
 border: 1px solid ;
 border-radius: 12px;
 transition: background 0.25s ease, color 0.25s ease, transform 0.25s ease;
 }
 #portfolio a:hover {
-background: #0ac0ae;
-color: #fff;
+background: #f7f9f9;
+color: #f9f7f7;
 transform: translateX(4px);
 }
 #portfolio a::after {
